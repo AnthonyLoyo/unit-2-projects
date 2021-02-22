@@ -1,0 +1,77 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid gold;
+
+    margin: 3% auto;
+    /*
+        By setting the rule 'margin: 3% auto;' we are telling our <hr> element to have margin top and bottom of 3% relative to the webpage by using auto it will automatically take up all the horizontal space available to it.
+    */
+
+    width: 7%;
+    /*
+        By setting the rule 'width: 7%;' we are telling our 
+        <hr> element to expand to 7% horizontally.
+    */
+
+
+    /*
+        Final Notes: 
+
+        We took the <hr> element and gave it solid border with 1px density and a gold color. 
+
+        Then we used margin to give the top and bottom of our <hr> element a margin of 3% relative to the webpage, for left and right we gave the <hr> element a margin of auto which let it take up all of the space available to it.
+
+        Finally we used width to give the <hr> element a horizont max with of 7%.
+    */
+}
+
+nav {
+    margin: 0 1%;
+    /*
+        By setting the rule 'margin: 0% 7%;' our navigation will have margin from the top and bottom of 0 and a margin from the left and right of 1% 
+    */
+
+    padding: 1% 5%;
+    /*
+        By setting the rule 'padding: 1% 5%;' our elements will have a padding of 1% vertically from its content and will have a padding of 5% horzontally from its content.
+    */
+}
+
+nav > div {
+    display: inline-block;
+    /*
+        By setting the rule 'display: inline-block;' our elements align horizontally to eachother.
+    */
+}
+
+nav div a {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > div:last-child {
+    float: right;
+}
+
+nav input {
+    border: none;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center; 
+    width: 80%;
+}
+
+header img {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
