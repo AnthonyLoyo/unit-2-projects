@@ -65,13 +65,90 @@ nav input {
 }
 
 header {
-    margin: 0 auto;
-    text-align: center; 
+    margin: 0 auto; 
+    text-align: center;
     width: 80%;
+
+    /*  
+        NOTES
+
+        i dont know exactly how each line works for example i feel that the first and secnd line do the same thing but i do know from previous projects that this is the way to center total elements 
+    */
 }
 
 header img {
     border-radius: 50%;
     height: 75px;
     width: 75px;
+}
+
+header h1 {
+    color: #242424;
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    letter-spacing: -1;
+    line-height: 60px;
+    margin: 5% 0;
+}
+
+header h3 {
+    color: #5f5f5f;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 5% 0 3%;
+}
+
+section {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+section p {
+    color: #565656;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 15%;
+    margin: 3% 0;
+    clear: both;
+
+    /*
+        FINAL NOTES
+
+        CLEAR IS KING!!!!
+        BY ADDING CLEAR BOTH TO MY <P> TAGS I WAS ABLE TO CLEAR THE SPACE NEXT TO THE PICTURE SO WHEN THE IAGE FLOATS THE P ELEMENT WWONT FLOAT NEXT TO IT INSTEA THE ARE REMAINS CLEAR!
+
+    */
+}
+
+
+section .pic  {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    
+}
+
+.personal-quote {
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.image-wrap {
+    /* height: 61%; */
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.image-wrap img {
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
 }
