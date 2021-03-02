@@ -140,7 +140,6 @@ section .pic  {
 }
 
 .image-wrap {
-    /* height: 61%; */
     margin: 0 auto;
     text-align: center;
     width: 80%;
@@ -151,4 +150,71 @@ section .pic  {
     margin: 0 auto;
     text-align: center;
     width: 50%;
+}
+
+section > div {
+    color: #565656;
+}
+
+section .fa-heart {
+    color: red;
+    margin-bottom: 3%;
+}
+
+section textarea {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px lightgray;
+    font-size: 14px;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+.button-group {
+    text-align: left;
+    margin-bottom: 5%;
+}
+.button-group button {
+    border: none;
+    background-color: white;
+    color: #565656;
+    padding: 0 5px 0 0px;
+}
+.button-group button:last-child {
+    float: right;
+}
+
+.button-group button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f8f9fd;
+    height: 20%;
+    padding: 0 20%;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    /* border: 1px solid green; */
+    /* padding-top: 3%; */
+}
+
+
+
+.previous-article,
+.previous-button {
+    float:left;
+    padding-top: 2%;
+    /* border: 1px solid yellow; */
+}
+
+.next-article,
+.next-button {
+    float: right;
+    padding-top: 2%;
+    /* border: 1px solid yellow; */
 }
