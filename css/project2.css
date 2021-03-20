@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    margin: 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+nav {
+    background: #02908B;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+nav > a {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    left: 25px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    top: 10px;
+}
+
+nav span {
+    font-family: "Open Sans", sans-serif;
+    color: #CFC91D;
+    text-align: left;
+}
+
+nav ul {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav li > a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-decoration: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+    color:#CFC91D;
+}
+
+header {
+    background-attachment: fixed ;
+    background-image: url(../img/project2-img/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 50%;
+    color: #FFF;
+    height: 500px;
+    padding-top: 15%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 72px;
+    letter-spacing: 20px;
+    margin: 0;
+}
+
+header p {
+    margin-top: 0;
+}
+
+header img {
+    padding: 35px 0;
+}
+
+header a {
+    background-color: #CDC71D;
+    color: #0B1016;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+    background-color: #fff;
+    color: #0B1016;
+    cursor: pointer;
+}
+
+#about {
+    text-align: center;
+}
+
+#about .title,
+#services .title,
+#contact .title {
+    color: #02918C;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#about img {
+    margin: 15px 0;
+}
+
+#about > p {
+    color: #7E8287;
+    line-height: 41px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#about span {
+    font-size: 23px;
+    font-weight: bold;
+}
